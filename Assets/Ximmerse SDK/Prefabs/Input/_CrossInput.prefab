@@ -1,0 +1,582 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &133286
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 488058}
+  - 114: {fileID: 11434830}
+  m_Layer: 0
+  m_Name: X-Hawk
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &143914
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 477686}
+  - 114: {fileID: 11448618}
+  m_Layer: 0
+  m_Name: _UnityInput
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &192622
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 462422}
+  m_Layer: 0
+  m_Name: _XimInput
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &198128
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 450004}
+  - 114: {fileID: 11452276}
+  m_Layer: 0
+  m_Name: _CrossInput
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &450004
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 198128}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 477686}
+  - {fileID: 462422}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!4 &462422
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 192622}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 488058}
+  m_Father: {fileID: 450004}
+  m_RootOrder: 1
+--- !u!4 &477686
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 143914}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 450004}
+  m_RootOrder: 0
+--- !u!4 &488058
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 133286}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 462422}
+  m_RootOrder: 0
+--- !u!114 &11434830
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 133286}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00b435ae90f495a498b1439aefe44dea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Pivot: {fileID: 0}
+  autoHideXCobra: 1
+  sensitivity: {x: 0.001, y: 0.001, z: 0.001}
+  axisDeadzone: 0.1
+  controllerFormats:
+  - Left_{0}
+  - Right_{0}
+  mapSettings:
+  - {fileID: 11400000, guid: f5bd3264ee47c7b4f86ae1d9802ff9be, type: 2}
+  - {fileID: 11400000, guid: 26b211f9e25af7f48bf7c2114175589f, type: 2}
+  asVirtualControllers: 1
+  btnReset:
+    keys: 72000000
+    buttons:
+    - Left_Start
+    - Right_Start
+--- !u!114 &11448618
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 143914}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d6ef70678c1c3944191266f7f8f9e5c7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mapMouse: 1
+  axes:
+  - key: Horizontal
+    value: Horizontal
+  - key: Vertical
+    value: Vertical
+  - key: Mouse X
+    value: Mouse X
+  - key: Mouse Y
+    value: Mouse Y
+  buttons:
+  - key: Fire1
+    value: Fire1
+  - key: Fire2
+    value: Fire2
+  - key: Fire3
+    value: Fire3
+  - key: Jump
+    value: Jump
+  numAxes: -1
+  numButtons: -1
+--- !u!114 &11452276
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 198128}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c78bbd3d43fd1214aa39b46316e6b9a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  useCrossInput: 1
+  dontDestroyOnLoad: 1
+  m_Sources:
+  - {fileID: 11448618}
+  - {fileID: 11434830}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 0}
+      propertyPath: keys.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: points.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: sources.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: btnReset.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_Controllers.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: keyReset.keys.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: btnReset.keys.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: btnReset.buttons.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: keys.Array.data[0].key.keys.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_Controllers.Array.data[2].axes.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_Controllers.Array.data[3].axes.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_Controllers.Array.data[2].buttons.Array.size
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_Controllers.Array.data[3].buttons.Array.size
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: keys.Array.data[0].onTrigger.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_Controllers.Array.data[1].Hand
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_Controllers.Array.data[0].joyPrefix
+      value: j0_{0}
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_Controllers.Array.data[0].Hand
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_Controllers.Array.data[1].joyPrefix
+      value: j1_{0}
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_Controllers.Array.data[2].joyPrefix
+      value: '{0}'
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_Controllers.Array.data[2].axes.Array.data[0]
+      value: Horizontal
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_Controllers.Array.data[2].axes.Array.data[1]
+      value: Vertical
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_Controllers.Array.data[2].buttons.Array.data[0]
+      value: START
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_Controllers.Array.data[2].buttons.Array.data[1]
+      value: ONE
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_Controllers.Array.data[2].buttons.Array.data[2]
+      value: TWO
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_Controllers.Array.data[2].buttons.Array.data[3]
+      value: THREE
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_Controllers.Array.data[2].buttons.Array.data[4]
+      value: FOUR
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_Controllers.Array.data[2].buttons.Array.data[5]
+      value: BUMPER
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_Controllers.Array.data[2].buttons.Array.data[6]
+      value: JOYSTICK
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_Controllers.Array.data[2].buttons.Array.data[7]
+      value: TRIGGER
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_Controllers.Array.data[2].deadTrigger
+      value: .899999976
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_Controllers.Array.data[2].poseName
+      value: Hand
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_Controllers.Array.data[3].joyPrefix
+      value: '{0}'
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_Controllers.Array.data[3].axes.Array.data[0]
+      value: Horizontal
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_Controllers.Array.data[3].axes.Array.data[1]
+      value: Vertical
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_Controllers.Array.data[3].buttons.Array.data[0]
+      value: START
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_Controllers.Array.data[3].buttons.Array.data[1]
+      value: ONE
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_Controllers.Array.data[3].buttons.Array.data[2]
+      value: TWO
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_Controllers.Array.data[3].buttons.Array.data[3]
+      value: THREE
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_Controllers.Array.data[3].buttons.Array.data[4]
+      value: FOUR
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_Controllers.Array.data[3].buttons.Array.data[5]
+      value: BUMPER
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_Controllers.Array.data[3].buttons.Array.data[6]
+      value: JOYSTICK
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_Controllers.Array.data[3].buttons.Array.data[7]
+      value: TRIGGER
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_Controllers.Array.data[3].deadTrigger
+      value: .899999976
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_Controllers.Array.data[3].poseName
+      value: Hand
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_Controllers.Array.data[0].poseName
+      value: Left_Hand
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_Controllers.Array.data[1].poseName
+      value: Right_Hand
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: sources.Array.data[0]
+      value: 
+      objectReference: {fileID: 11448618}
+    - target: {fileID: 0}
+      propertyPath: sources.Array.data[1]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: canReset
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: btnReset.Array.data[0]
+      value: Left_START
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: btnReset.Array.data[1]
+      value: Right_START
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_LocalPosition.x
+      value: .150000006
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: configSec
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: fmtJoy
+      value: Right_{0}
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: deviceName
+      value: X-Swift Alpha 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: sendAnswer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: deviceId
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: deviceAddress
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_Sensors.Array.data[1]
+      value: 
+      objectReference: {fileID: 11400000, guid: 646082a327492af488e56a3e562c23c0,
+        type: 2}
+    - target: {fileID: 0}
+      propertyPath: m_Sensors.Array.data[2]
+      value: 
+      objectReference: {fileID: 11400000, guid: 606b727692c097646a51626ea5546f53,
+        type: 2}
+    - target: {fileID: 0}
+      propertyPath: m_Sensors.Array.data[3]
+      value: 
+      objectReference: {fileID: 11400000, guid: 089c77295db926245a29b75781bfc32e,
+        type: 2}
+    - target: {fileID: 0}
+      propertyPath: points.Array.data[0].poseName
+      value: Left_Hand
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: points.Array.data[1].poseName
+      value: Right_Hand
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_Controllers.Array.data[0].fmtJoy
+      value: Left_{0}
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_Controllers.Array.data[1].fmtJoy
+      value: Right_{0}
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: asHandJoystick
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: mapMouse
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: port
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: ip
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: btnReset.buttons.Array.data[0]
+      value: Left_Start
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: btnReset.buttons.Array.data[1]
+      value: Right_Start
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: keys.Array.data[0].key.keys.Array.data[0]
+      value: 105
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: keys.Array.data[0].onTrigger.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: keys.Array.data[0].onTrigger.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SwapDevice
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: keys.Array.data[0].onTrigger.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: keys.Array.data[0].onTrigger.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: keys.Array.data[0].onTrigger.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: keyReset.keys.Array.data[0]
+      value: 114
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: configPath
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_Controllers.Array.data[0].buttons.Array.data[7]
+      value: Trigger
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_Controllers.Array.data[1].buttons.Array.data[7]
+      value: Trigger
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: useUnitTest
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: poseName
+      value: Hand
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_Sensors.Array.data[0]
+      value: 
+      objectReference: {fileID: 11400000, guid: 70136b1f55f85ff4b863326907da86ee,
+        type: 2}
+    - target: {fileID: 0}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_Name
+      value: X-Hawk
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: sensitivity.y
+      value: 0.001
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: safeReadMode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: controllerMapEntries.Array.data[0]
+      value: 
+      objectReference: {fileID: 11400000, guid: 5be7e4f1602ab334ca1e5b35fb12900c,
+        type: 2}
+    - target: {fileID: 0}
+      propertyPath: controllerMapEntries.Array.data[1]
+      value: 
+      objectReference: {fileID: 11400000, guid: 5be7e4f1602ab334ca1e5b35fb12900c,
+        type: 2}
+    - target: {fileID: 0}
+      propertyPath: mapSettings.Array.data[0]
+      value: 
+      objectReference: {fileID: 11400000, guid: f5bd3264ee47c7b4f86ae1d9802ff9be,
+        type: 2}
+    - target: {fileID: 0}
+      propertyPath: mapSettings.Array.data[1]
+      value: 
+      objectReference: {fileID: 11400000, guid: 26b211f9e25af7f48bf7c2114175589f,
+        type: 2}
+    - target: {fileID: 0}
+      propertyPath: btnReset.keys.Array.data[0]
+      value: 114
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 198128}
+  m_IsPrefabParent: 1

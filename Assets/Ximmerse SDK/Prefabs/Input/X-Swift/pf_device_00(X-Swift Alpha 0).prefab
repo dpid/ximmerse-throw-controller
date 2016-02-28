@@ -1,0 +1,147 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &121380
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 430086}
+  - 114: {fileID: 11418566}
+  m_Layer: 0
+  m_Name: pf_device_00(X-Swift Alpha 0)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &430086
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 121380}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11418566
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 121380}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2be0ee7dd03629943ae65747f9584322, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  configPath: 
+  configSec: 
+  deviceName: X-Swift Alpha 0
+  deviceId: 0
+  deviceAddress: 
+  textUnitTest: {fileID: 0}
+  useUnitTest: 0
+  rateUnitTest: .5
+  strUnitTest: 
+  asHandJoystick: 1
+  fmtJoy: '{0}'
+  poseName: 
+  canReset: 1
+  keyReset:
+    keys: 72000000
+    buttons: []
+  m_Sensors:
+  - {fileID: 11400000, guid: 4988ef24288ec0e4dabb1f5f714b47d9, type: 2}
+  - {fileID: 11400000, guid: a5426febedc35c24f9371c5286f7a34e, type: 2}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 0}
+      propertyPath: m_Sensors.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: keyReset.keys.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: deviceName
+      value: X-Swift Alpha 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: fmtJoy
+      value: '{0}'
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_Sensors.Array.data[0]
+      value: 
+      objectReference: {fileID: 11400000, guid: 4988ef24288ec0e4dabb1f5f714b47d9,
+        type: 2}
+    - target: {fileID: 0}
+      propertyPath: m_Sensors.Array.data[1]
+      value: 
+      objectReference: {fileID: 11400000, guid: a5426febedc35c24f9371c5286f7a34e,
+        type: 2}
+    - target: {fileID: 0}
+      propertyPath: m_Sensors.Array.data[2]
+      value: 
+      objectReference: {fileID: 11400000, guid: 606b727692c097646a51626ea5546f53,
+        type: 2}
+    - target: {fileID: 0}
+      propertyPath: m_Sensors.Array.data[3]
+      value: 
+      objectReference: {fileID: 11400000, guid: 089c77295db926245a29b75781bfc32e,
+        type: 2}
+    - target: {fileID: 0}
+      propertyPath: m_Sensors.Array.data[4]
+      value: 
+      objectReference: {fileID: 11400000, guid: ece8463fb38a5454fb7a555986d14194,
+        type: 2}
+    - target: {fileID: 0}
+      propertyPath: m_Sensors.Array.data[5]
+      value: 
+      objectReference: {fileID: 11400000, guid: 07de9d2786cf7fa49b84f8841261e0fa,
+        type: 2}
+    - target: {fileID: 0}
+      propertyPath: m_Sensors.Array.data[6]
+      value: 
+      objectReference: {fileID: 11400000, guid: 30d68ab24acf6f9488ec0afec4e99560,
+        type: 2}
+    - target: {fileID: 0}
+      propertyPath: m_Sensors.Array.data[7]
+      value: 
+      objectReference: {fileID: 11400000, guid: 928a4cf55ae179d429824b09465969e3,
+        type: 2}
+    - target: {fileID: 0}
+      propertyPath: deviceAddress
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: configSec
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: configPath
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: useUnitTest
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: poseName
+      value: 
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 121380}
+  m_IsPrefabParent: 1

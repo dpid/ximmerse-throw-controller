@@ -1,0 +1,303 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 49a8ca578f24d0249bec1800fb20d8be, type: 3}
+  m_Name: Avatar_RiggedSaltCutHands
+  m_EditorClassIdentifier: 
+  m_TextAsset: {fileID: 11400000, guid: a676c4c7891c4d742857b8e2bbba501b, type: 2}
+  m_PersistentJoints:
+  - name: RightHand
+    boneId: 22
+    bone: {fileID: 0}
+    path: Bip01 R Hand
+    constraints: 000000000000000000000000
+    value: {x: 0, y: 0, z: 0}
+    minEulerAngles: {x: -180, y: -180, z: -90}
+    maxEulerAngles: {x: 180, y: 180, z: 0}
+    isDirty: 0
+  - name: RightThumbProximal
+    boneId: 23
+    bone: {fileID: 0}
+    path: Bip01 R Hand/Bip01 R Finger0
+    constraints: 000000000000000000000000
+    value: {x: 0, y: 0, z: .735688984}
+    minEulerAngles: {x: -180, y: -180, z: 0}
+    maxEulerAngles: {x: 180, y: 180, z: 360}
+    isDirty: 0
+  - name: RightThumbIntermediate
+    boneId: 24
+    bone: {fileID: 0}
+    path: Bip01 R Hand/Bip01 R Finger0/Bip01 R Finger01
+    constraints: 000000000000000000000000
+    value: {x: 0, y: 0, z: -1}
+    minEulerAngles: {x: -180, y: -180, z: -90}
+    maxEulerAngles: {x: 180, y: 180, z: 0}
+    isDirty: 1
+  - name: RightThumbDistal
+    boneId: 25
+    bone: {fileID: 0}
+    path: Bip01 R Hand/Bip01 R Finger0/Bip01 R Finger01/Bip01 R Finger02
+    constraints: 000000000000000000000000
+    value: {x: 0, y: 0, z: -1}
+    minEulerAngles: {x: -180, y: -180, z: -90}
+    maxEulerAngles: {x: 180, y: 180, z: 0}
+    isDirty: 1
+  - name: RightIndexProximal
+    boneId: 26
+    bone: {fileID: 0}
+    path: Bip01 R Hand/Bip01 R Finger1
+    constraints: 000000000000000000000000
+    value: {x: -.0333333313, y: 0, z: -1}
+    minEulerAngles: {x: -180, y: -180, z: -90}
+    maxEulerAngles: {x: 180, y: 180, z: 0}
+    isDirty: 1
+  - name: RightIndexIntermediate
+    boneId: 27
+    bone: {fileID: 0}
+    path: Bip01 R Hand/Bip01 R Finger1/Bip01 R Finger11
+    constraints: 000000000000000000000000
+    value: {x: 0, y: 0, z: -1}
+    minEulerAngles: {x: -180, y: -180, z: -90}
+    maxEulerAngles: {x: 180, y: 180, z: 0}
+    isDirty: 1
+  - name: RightIndexDistal
+    boneId: 28
+    bone: {fileID: 0}
+    path: Bip01 R Hand/Bip01 R Finger1/Bip01 R Finger11/Bip01 R Finger12
+    constraints: 000000000000000000000000
+    value: {x: 0, y: 0, z: -1}
+    minEulerAngles: {x: -180, y: -180, z: -90}
+    maxEulerAngles: {x: 180, y: 180, z: 0}
+    isDirty: 1
+  - name: RightMiddleProximal
+    boneId: 29
+    bone: {fileID: 0}
+    path: Bip01 R Hand/Bip01 R Finger2
+    constraints: 000000000000000000000000
+    value: {x: 0, y: 0, z: -1}
+    minEulerAngles: {x: -180, y: -180, z: -90}
+    maxEulerAngles: {x: 180, y: 180, z: 0}
+    isDirty: 1
+  - name: RightMiddleIntermediate
+    boneId: 30
+    bone: {fileID: 0}
+    path: Bip01 R Hand/Bip01 R Finger2/Bip01 R Finger21
+    constraints: 000000000000000000000000
+    value: {x: 0, y: 0, z: -1}
+    minEulerAngles: {x: -180, y: -180, z: -90}
+    maxEulerAngles: {x: 180, y: 180, z: 0}
+    isDirty: 1
+  - name: RightMiddleDistal
+    boneId: 31
+    bone: {fileID: 0}
+    path: Bip01 R Hand/Bip01 R Finger2/Bip01 R Finger21/Bip01 R Finger22
+    constraints: 000000000000000000000000
+    value: {x: 0, y: 0, z: -1}
+    minEulerAngles: {x: -180, y: -180, z: -90}
+    maxEulerAngles: {x: 180, y: 180, z: 0}
+    isDirty: 1
+  - name: RightRingProximal
+    boneId: 32
+    bone: {fileID: 0}
+    path: Bip01 R Hand/Bip01 R Finger3
+    constraints: 000000000000000000000000
+    value: {x: 0, y: 0, z: -1}
+    minEulerAngles: {x: -180, y: -180, z: -90}
+    maxEulerAngles: {x: 180, y: 180, z: 0}
+    isDirty: 1
+  - name: RightRingIntermediate
+    boneId: 33
+    bone: {fileID: 0}
+    path: Bip01 R Hand/Bip01 R Finger3/Bip01 R Finger31
+    constraints: 000000000000000000000000
+    value: {x: 0, y: 0, z: -1}
+    minEulerAngles: {x: -180, y: -180, z: -90}
+    maxEulerAngles: {x: 180, y: 180, z: 0}
+    isDirty: 1
+  - name: RightRingDistal
+    boneId: 34
+    bone: {fileID: 0}
+    path: Bip01 R Hand/Bip01 R Finger3/Bip01 R Finger31/Bip01 R Finger32
+    constraints: 000000000000000000000000
+    value: {x: 0, y: 0, z: -1}
+    minEulerAngles: {x: -180, y: -180, z: -90}
+    maxEulerAngles: {x: 180, y: 180, z: 0}
+    isDirty: 1
+  - name: RightLittleProximal
+    boneId: 35
+    bone: {fileID: 0}
+    path: Bip01 R Hand/Bip01 R Finger4
+    constraints: 000000000000000000000000
+    value: {x: .00837569963, y: 0, z: -1}
+    minEulerAngles: {x: -180, y: -180, z: -90}
+    maxEulerAngles: {x: 180, y: 180, z: 0}
+    isDirty: 1
+  - name: RightLittleIntermediate
+    boneId: 36
+    bone: {fileID: 0}
+    path: Bip01 R Hand/Bip01 R Finger4/Bip01 R Finger41
+    constraints: 000000000000000000000000
+    value: {x: 0, y: 0, z: -1}
+    minEulerAngles: {x: -180, y: -180, z: -90}
+    maxEulerAngles: {x: 180, y: 180, z: 0}
+    isDirty: 1
+  - name: RightLittleDistal
+    boneId: 37
+    bone: {fileID: 0}
+    path: Bip01 R Hand/Bip01 R Finger4/Bip01 R Finger41/Bip01 R Finger42
+    constraints: 000000000000000000000000
+    value: {x: 0, y: 0, z: -1}
+    minEulerAngles: {x: -180, y: -180, z: -90}
+    maxEulerAngles: {x: 180, y: 180, z: 0}
+    isDirty: 1
+  - name: LeftHand
+    boneId: 6
+    bone: {fileID: 0}
+    path: Bip01 L Hand
+    constraints: 000000000000000000000000
+    value: {x: 0, y: 0, z: -1}
+    minEulerAngles: {x: -180, y: -180, z: -90}
+    maxEulerAngles: {x: 180, y: 180, z: 0}
+    isDirty: 0
+  - name: LeftThumbProximal
+    boneId: 7
+    bone: {fileID: 0}
+    path: Bip01 L Hand/Bip01 R Finger043
+    constraints: 000000000000000000000000
+    value: {x: 0, y: 0, z: .735688984}
+    minEulerAngles: {x: -180, y: -180, z: 0}
+    maxEulerAngles: {x: 180, y: 180, z: 360}
+    isDirty: 0
+  - name: LeftThumbIntermediate
+    boneId: 8
+    bone: {fileID: 0}
+    path: Bip01 L Hand/Bip01 R Finger043/Bip01 R Finger044
+    constraints: 000000000000000000000000
+    value: {x: 0, y: 0, z: -1}
+    minEulerAngles: {x: -180, y: -180, z: -90}
+    maxEulerAngles: {x: 180, y: 180, z: 0}
+    isDirty: 1
+  - name: LeftThumbDistal
+    boneId: 9
+    bone: {fileID: 0}
+    path: Bip01 L Hand/Bip01 R Finger043/Bip01 R Finger044/Bip01 R Finger045
+    constraints: 000000000000000000000000
+    value: {x: 0, y: 0, z: -1}
+    minEulerAngles: {x: -180, y: -180, z: -90}
+    maxEulerAngles: {x: 180, y: 180, z: 0}
+    isDirty: 1
+  - name: LeftIndexProximal
+    boneId: 10
+    bone: {fileID: 0}
+    path: Bip01 L Hand/Bip01 R Finger046
+    constraints: 000000000000000000000000
+    value: {x: -.0333333313, y: 0, z: -1}
+    minEulerAngles: {x: -180, y: -180, z: -90}
+    maxEulerAngles: {x: 180, y: 180, z: 0}
+    isDirty: 1
+  - name: LeftIndexIntermediate
+    boneId: 11
+    bone: {fileID: 0}
+    path: Bip01 L Hand/Bip01 R Finger046/Bip01 R Finger047
+    constraints: 000000000000000000000000
+    value: {x: 0, y: 0, z: -1}
+    minEulerAngles: {x: -180, y: -180, z: -90}
+    maxEulerAngles: {x: 180, y: 180, z: 0}
+    isDirty: 1
+  - name: LeftIndexDistal
+    boneId: 12
+    bone: {fileID: 0}
+    path: Bip01 L Hand/Bip01 R Finger046/Bip01 R Finger047/Bip01 R Finger048
+    constraints: 000000000000000000000000
+    value: {x: 0, y: 0, z: -1}
+    minEulerAngles: {x: -180, y: -180, z: -90}
+    maxEulerAngles: {x: 180, y: 180, z: 0}
+    isDirty: 1
+  - name: LeftMiddleProximal
+    boneId: 13
+    bone: {fileID: 0}
+    path: Bip01 L Hand/Bip01 R Finger049
+    constraints: 000000000000000000000000
+    value: {x: 0, y: 0, z: -1}
+    minEulerAngles: {x: -180, y: -180, z: -90}
+    maxEulerAngles: {x: 180, y: 180, z: 0}
+    isDirty: 1
+  - name: LeftMiddleIntermediate
+    boneId: 14
+    bone: {fileID: 0}
+    path: Bip01 L Hand/Bip01 R Finger049/Bip01 R Finger050
+    constraints: 000000000000000000000000
+    value: {x: 0, y: 0, z: -1}
+    minEulerAngles: {x: -180, y: -180, z: -90}
+    maxEulerAngles: {x: 180, y: 180, z: 0}
+    isDirty: 1
+  - name: LeftMiddleDistal
+    boneId: 15
+    bone: {fileID: 0}
+    path: Bip01 L Hand/Bip01 R Finger049/Bip01 R Finger050/Bip01 R Finger051
+    constraints: 000000000000000000000000
+    value: {x: 0, y: 0, z: -1}
+    minEulerAngles: {x: -180, y: -180, z: -90}
+    maxEulerAngles: {x: 180, y: 180, z: 0}
+    isDirty: 1
+  - name: LeftRingProximal
+    boneId: 16
+    bone: {fileID: 0}
+    path: Bip01 L Hand/Bip01 R Finger052
+    constraints: 000000000000000000000000
+    value: {x: 0, y: 0, z: -1}
+    minEulerAngles: {x: -180, y: -180, z: -90}
+    maxEulerAngles: {x: 180, y: 180, z: 0}
+    isDirty: 1
+  - name: LeftRingIntermediate
+    boneId: 17
+    bone: {fileID: 0}
+    path: Bip01 L Hand/Bip01 R Finger052/Bip01 R Finger053
+    constraints: 000000000000000000000000
+    value: {x: 0, y: 0, z: -1}
+    minEulerAngles: {x: -180, y: -180, z: -90}
+    maxEulerAngles: {x: 180, y: 180, z: 0}
+    isDirty: 1
+  - name: LeftRingDistal
+    boneId: 18
+    bone: {fileID: 0}
+    path: Bip01 L Hand/Bip01 R Finger052/Bip01 R Finger053/Bip01 R Finger054
+    constraints: 000000000000000000000000
+    value: {x: 0, y: 0, z: -1}
+    minEulerAngles: {x: -180, y: -180, z: -90}
+    maxEulerAngles: {x: 180, y: 180, z: 0}
+    isDirty: 1
+  - name: LeftLittleProximal
+    boneId: 19
+    bone: {fileID: 0}
+    path: Bip01 L Hand/Bip01 R Finger055
+    constraints: 000000000000000000000000
+    value: {x: .00837569963, y: 0, z: -1}
+    minEulerAngles: {x: -180, y: -180, z: -90}
+    maxEulerAngles: {x: 180, y: 180, z: 0}
+    isDirty: 1
+  - name: LeftLittleIntermediate
+    boneId: 20
+    bone: {fileID: 0}
+    path: Bip01 L Hand/Bip01 R Finger055/Bip01 R Finger056
+    constraints: 000000000000000000000000
+    value: {x: 0, y: 0, z: -1}
+    minEulerAngles: {x: -180, y: -180, z: -90}
+    maxEulerAngles: {x: 180, y: 180, z: 0}
+    isDirty: 1
+  - name: LeftLittleDistal
+    boneId: 21
+    bone: {fileID: 0}
+    path: Bip01 L Hand/Bip01 R Finger055/Bip01 R Finger056/Bip01 R Finger057
+    constraints: 000000000000000000000000
+    value: {x: 0, y: 0, z: -1}
+    minEulerAngles: {x: -180, y: -180, z: -90}
+    maxEulerAngles: {x: 180, y: 180, z: 0}
+    isDirty: 1

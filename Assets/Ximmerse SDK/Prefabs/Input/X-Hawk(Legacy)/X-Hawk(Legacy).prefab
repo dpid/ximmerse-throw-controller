@@ -1,0 +1,190 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &110744
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 493670}
+  - 114: {fileID: 11438482}
+  m_Layer: 0
+  m_Name: X-Cobra 0
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &181438
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 405290}
+  - 114: {fileID: 11473530}
+  m_Layer: 0
+  m_Name: X-Hawk(Legacy)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &190800
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 497726}
+  - 114: {fileID: 11455672}
+  m_Layer: 0
+  m_Name: X-Cobra 1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &405290
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 181438}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 493670}
+  - {fileID: 497726}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!4 &493670
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 110744}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 405290}
+  m_RootOrder: 0
+--- !u!4 &497726
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 190800}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 405290}
+  m_RootOrder: 1
+--- !u!114 &11438482
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 110744}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2be0ee7dd03629943ae65747f9584322, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  configPath: 
+  configSec: 
+  deviceName: X-Cobra Alpha 0
+  deviceId: 0
+  deviceAddress: 
+  asVirtualController: 1
+  fmtJoy: Left_{0}
+  poseName: Hand
+  canReset: 1
+  keyReset:
+    keys: 72000000
+    buttons:
+    - Left_Start
+    - Right_Start
+  m_Sensors:
+  - {fileID: 11400000, guid: 70136b1f55f85ff4b863326907da86ee, type: 2}
+  - {fileID: 11400000, guid: 646082a327492af488e56a3e562c23c0, type: 2}
+  - {fileID: 11400000, guid: 606b727692c097646a51626ea5546f53, type: 2}
+  - {fileID: 11400000, guid: 089c77295db926245a29b75781bfc32e, type: 2}
+--- !u!114 &11455672
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 190800}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2be0ee7dd03629943ae65747f9584322, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  configPath: 
+  configSec: 
+  deviceName: X-Cobra Alpha 0
+  deviceId: 1
+  deviceAddress: 
+  asVirtualController: 1
+  fmtJoy: Right_{0}
+  poseName: Hand
+  canReset: 1
+  keyReset:
+    keys: 72000000
+    buttons:
+    - Left_Start
+    - Right_Start
+  m_Sensors:
+  - {fileID: 11400000, guid: 70136b1f55f85ff4b863326907da86ee, type: 2}
+  - {fileID: 11400000, guid: 646082a327492af488e56a3e562c23c0, type: 2}
+  - {fileID: 11400000, guid: 606b727692c097646a51626ea5546f53, type: 2}
+  - {fileID: 11400000, guid: 089c77295db926245a29b75781bfc32e, type: 2}
+--- !u!114 &11473530
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 181438}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72983781c63f01845b9a14c7020d13e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  configPath: 
+  configSec: 
+  pivot: {fileID: 0}
+  sensitivity: {x: 0.001, y: -0.001, z: 0.001}
+  points:
+  - poseName: Left_Hand
+    id: 0
+    position: {x: 0, y: 0, z: 0}
+  - poseName: Right_Hand
+    id: 1
+    position: {x: 0, y: 0, z: 0}
+  vId: 0
+  pId: 0
+  safeReadMode: 1
+  m_IsDebug: 1
+  m_Text: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 0}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 181438}
+  m_IsPrefabParent: 1

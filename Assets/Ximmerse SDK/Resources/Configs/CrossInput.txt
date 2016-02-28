@@ -1,0 +1,59 @@
+[X-Cobra-Alpha-0-0]
+;
+JoystickFormat=Left_{0}
+;
+DeviceName=X-Cobra Alpha 0
+;
+DeviceId=0
+;
+DeviceAddress=
+
+[X-Cobra-Alpha-0-1]
+;
+JoystickFormat=Right_{0}
+;
+DeviceName=X-Cobra Alpha 0
+;
+DeviceId=1
+;
+DeviceAddress=
+
+[X-Swift-Alpha-0-0]
+;
+JoystickFormat=Left_{0}
+;
+DeviceName=X-Swift Alpha 0
+;
+DeviceId=0
+;
+DeviceAddress=
+
+[Usb]
+;
+VID=0x1F3B
+PID=0x10FF
+SafeReadMode=0
+;
+Sensitivity=0.001,-0.001,0.001
+PivotPos=0,0,0
+PivotRot=0,0,0
+
+[X-Cobra_01_00]
+;
+JoystickFormat=Left_{0}
+;
+DeviceName=X-Cobra Beta 2
+;
+DeviceId=0
+;
+DeviceAddress=
+
+[X-Cobra_01_01]
+;
+JoystickFormat=Right_{0}
+;
+DeviceName=X-Cobra Beta 2
+;
+DeviceId=0
+;
+DeviceAddress=
